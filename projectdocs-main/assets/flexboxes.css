@@ -1,0 +1,13 @@
+.two-columns {
+    display: flex;
+    gap: 20px; /* spacing between columns */
+}
+
+.column {
+    flex: 1; /* each column takes equal space */
+}
+/* Extra ruimte tussen de week-kaarten op de homepage */
+.cards-grid {
+  row-gap: 3rem;    /* verticale ruimte tussen rijen (ongeveer 48px) */
+  column-gap: 2.5rem; /* horizontale ruimte tussen kolommen (ongeveer 40px) */
+}
